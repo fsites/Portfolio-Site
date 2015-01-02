@@ -138,6 +138,7 @@ footer {
 	margin: 0 auto;
 	font-family: "Josefin Sans", sans-serif;
 	text-align: center;
+	padding-bottom: 20px;
 }
 .social {
 	display: inline-block;
