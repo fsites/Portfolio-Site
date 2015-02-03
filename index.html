@@ -3,21 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Fred Sites | Developer</title>
-	<link href="css/main.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+	<link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 	<nav class="top-navigation">
 		<ul class="links">
 			<li><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="#portfolio-top">Portfolio</a></li>
+			<li><a href="#phone">Contact</a></li>
 		</ul>
 	</nav>
 	<header class="masthead">
 		<div class="intro">
-	
 			<h1 class="masthead-name">Fred Sites</h1>
 			<h2 class="masthead-title">Front End Developer</h2>
 			<img src="images/fred-ed.png" alt="Pic of Fred and Dog" height="120px" width="120px">
@@ -26,26 +25,36 @@
 	<section class="about-me">
 		<h1>About Me</h1>
 		<p>I am an aspring Front End Developer based in the San Francisco Bay Area. After completing my Master's degree in Business Administration, I began learning web development through the many resources available online.</p>
-		<p>I've found learning to be very addicting and rewarding. With so much to learn and many resources available, I'm finding it hard to pull myself away from the computer. My short-term goal is to get an internship or entry level position with a front end team locally. In this position I'll continue to learn and grow professionally while being a valuable team member. This site will be updated regulary with work, successes, and failures as I continue to build my development skills and portfolio.</p>
-		<p>P.S. If anyone knows why my nav bar won't center and could point me in the right direction, that'd be cool too. Thanks for looking!</p>
-
-		<img src="images/html-css-js.png" alt="HTML, CSS, JS logos">
+		<p>I've found learning front-end to be very addicting and rewarding. With so much to learn and many resources available, I'm finding it hard to pull myself away from the computer. My short-term goal is to get an internship or entry level position with a front end team in the Bay Area. In this position I'll continue to learn and grow professionally while being a valuable team member. Take a look at some projects below, on <a href="www.github.com/fsites">GitHub</a>, or say hi on <a href="#phone">social media</a>.</p>
+	</section>
+	
+	<section class="portfolio" id="portfolio-top">
+		<h1>Portfolio</h1>
+		<p>This page may contain placeholder projects from tutorials as I continue to work on new projects</p>
+		<div class="projects">
+			<a href="www.github.com/fsites"><img src="images/hackthetimesproject.png" alt="New York Times edit"></a>
+			<a href="www.github.com/fsites"><img src="images/codepenproject.png" alt="codepen thinkful project"></a>
+		</div>
 	</section>
 
-	<footer>
-		<h2>Get in touch</h2>
+	<section class="contact-me">
+		<img src="images/html-css-js.png" alt="HTML, CSS, JS logos" id="logos">
+		<p id="phone">ph: 603 660 6353</p>
+		<p id="email">fsites521@gmail.com</p>
+		<!-- <form class="email-form">
+			<input type="email" placeholder="Enter Your Email" id="user-email">
+			<input type="textarea" placeholder="Send me an email" id="text-input">
+			<input type="submit" value="send" id="submit">
+		</form> -->
+	</section>
+
+	<footer id="footer">
+		<h2>Social</h2>
 		<div class="social">
 			<a href="https://www.facebook.com/fred.sites" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" height="35px" width="35px"/></a>
 			<a href="https://www.linkedin.com/pub/fred-sites/21/481/945" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" height="35px" width="35px" /></a>
 			<a href="https://github.com/fsites"><img src="images/github.png" alt="LinkedIn" height="35px" width="35px" /></a>
-
-
- 
 		</div>
- 
-
-	</footer>
-
-	
+	</footer>	
 </body>
 </html>
